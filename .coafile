@@ -1,0 +1,7 @@
+[style]
+bears = CheckstyleBear
+files = java/src/**.java, core/src/**.java, app/src/**.java
+checkstyle_configs = .checkstyle.xml
+indent_size = 2
+use_spaces = True
+language = java
