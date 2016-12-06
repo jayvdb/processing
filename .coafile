@@ -1,7 +1,7 @@
 [default]
-bears = coalaBear, FilenameBear, InvalidLinkBear
-files = **.h, **.yml, **.py, **.html, **.m, **.java, **.md, **.c, **.xml
-ignore = 
+bears = FilenameBear
+files = README.md, core/README.md, core/src/**.java, app/src/**.java, java/src/**.java
+file_naming_convention = pascal
 
 [markdown]
 bears = MarkdownBear, LineLengthBear
