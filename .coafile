@@ -17,4 +17,4 @@ files = **.xml
 
 [java]
 bears = CheckstyleBear
-files = **.java
+files = core/src/**.java, app/src/**.java, java/src/**.java
