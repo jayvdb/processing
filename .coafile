@@ -20,3 +20,7 @@ files = app/build.xml, core/build.xml, java/build.xml, build/build.xml,
 bears = CheckstyleBear
 files = core/src/**.java, app/src/**.java, java/src/**.java
 checkstyle_configs = .checkstyle.xml
+
+[yaml]
+bears = YAMLLintBear
+files = .travis.yml
