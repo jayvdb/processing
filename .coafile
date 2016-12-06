@@ -13,7 +13,8 @@ markdown_strong = _
 
 [xml]
 bears = XMLBear, LineLengthBear
-files = **.xml
+files = app/build.xml, core/build.xml, java/build.xml, build/build.xml,
+        .checkstyle.xml
 
 [java]
 bears = CheckstyleBear
