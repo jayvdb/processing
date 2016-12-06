@@ -17,7 +17,11 @@ files = **.m
 
 [markdown]
 bears = MarkdownBear, LineLengthBear
-files = **.md
+files = README.md
+max_line_length = 260
+markdown_setext_headings = True
+markdown_emphasis = _
+markdown_strong = _
 
 [html]
 bears = BootLintBear, HTMLLintBear, LineLengthBear
