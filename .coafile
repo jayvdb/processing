@@ -1,21 +1,26 @@
 [default]
 bears = FilenameBear
-files = README.md, core/README.md, core/src/**.java, app/src/**.java, java/src/**.java
+files = README.md, core/README.md, core/src/**.java, app/src/**.java,
+        java/src/**.java
 file_naming_convention = pascal
 
 [markdown]
-bears = MarkdownBear, LineLengthBear
-files = README.md
-max_line_length = 260
-markdown_setext_headings = True
-markdown_emphasis = _
-markdown_strong = _
+bears = MarkdownBear, LineLengthBear, SpaceConsistencyBear
+files = README.md, core/README.md
+max_line_length = 100
+use_spaces = True
 
 [xml]
-bears = XMLBear, LineLengthBear
-files = **.xml
+bears = XMLBear, SpaceConsistencyBear
+files = app/build.xml, core/build.xml, java/build.xml, build/build.xml,
+        .checkstyle.xml
+use_spaces = True
 
 [java]
 bears = CheckstyleBear
 files = core/src/**.java, app/src/**.java, java/src/**.java
 checkstyle_configs = .checkstyle.xml
+
+[yaml]
+bears = YAMLLintBear
+files = .travis.yml
