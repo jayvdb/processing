@@ -18,3 +18,4 @@ files = **.xml
 [java]
 bears = CheckstyleBear
 files = core/src/**.java, app/src/**.java, java/src/**.java
+checkstyle_configs = .checkstyle.xml
