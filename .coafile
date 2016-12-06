@@ -1,0 +1,44 @@
+[default]
+bears = coalaBear, FilenameBear, InvalidLinkBear
+files = **.h, **.yml, **.py, **.html, **.m, **.java, **.md, **.c, **.xml
+ignore = 
+
+[c]
+bears = ClangComplexityBear, GNUIndentBear, CSecurityBear
+files = **.c, **.h
+
+[yaml]
+bears = YAMLLintBear, LineLengthBear
+files = **.yml
+
+[objective-c]
+bears = ClangBear, LineLengthBear, ClangFunctionDifferenceBear, ClangASTPrintBear, ClangComplexityBear, ClangCloneDetectionBear
+files = **.m
+
+[markdown]
+bears = MarkdownBear, LineLengthBear
+files = **.md
+
+[html]
+bears = BootLintBear, HTMLLintBear, LineLengthBear
+files = **.html
+
+[matlab]
+bears = LineLengthBear, MatlabIndentationBear
+files = **.m
+
+[python]
+bears = PEP8Bear
+files = **.py
+
+[c++]
+bears = CPPCheckBear, ClangComplexityBear, GNUIndentBear, CPPCleanBear
+files = **.h
+
+[xml]
+bears = XMLBear, LineLengthBear
+files = **.xml
+
+[java]
+bears = CheckstyleBear
+files = **.java
